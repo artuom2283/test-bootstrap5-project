@@ -1,0 +1,105 @@
+header,
+footer,
+section {
+  padding: 100px 0;
+}
+
+header {
+  padding: 200px 0;
+}
+
+header,
+footer {
+  background: url(bootstrap5_files/img/pattern.png), #05b1b1;
+  background: url(bootstrap5_files/img/pattern.png), linear-gradient(to right, #05b1b1 0%, #52339a 100%);
+  background-size: contain;
+}
+
+.itd_play {
+  position: relative;
+  background-color: #05b1b1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 30px auto;
+  transition: all 0.2s ease;
+  margin-top: 87px;
+}
+
+.itd_play:hover {
+  background-color: #52339a;
+}
+
+.btn-itd {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 8px 30px;
+  color: #ffffff;
+  background-color: #52339a;
+}
+
+.btn-itd:hover {
+  color: #ffffff;
+  background-color: #05b1b1;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about, .shedule {
+  background-color: #eee;
+}
+
+.about i {
+  font-size: 30px;
+  color: #52339a;
+}
+
+.itd_circle {
+  margin: 0 auto -15px;
+  height: 70px;
+  width: 70px;
+  border: 3px solid #52339a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: #05b1b1;
+  margin: 15px auto -30px;
+}
+
+.forwhom h5 {
+  padding: 50px;
+  border: 3px solid #05b1b1;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: whitesmoke;
+}/*# sourceMappingURL=style.css.map */
